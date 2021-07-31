@@ -1,0 +1,646 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+.klenty-logo{
+    position: absolute;
+    width: 128.06px;
+    height: 60px;
+    top: 25px;
+    left: 40px;
+}
+.login{
+position: absolute;
+width: 52px;
+height: 25px;
+left: 1200px;
+top: 53px;
+cursor: pointer;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+color: #05034E;
+}
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    font-family:'Prompt', sans-serif;
+    cursor: pointer;
+    border: none;
+    
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 1270px;
+    top: 42px;
+    border-radius: 4px;
+    background: #5856CE;
+    transition: .2s;
+}
+:hover.nav-btn{
+    color: white;
+    letter-spacing: 0.8px;
+}
+
+.content-text{
+position: absolute;
+width: 497px;
+height: 136px; 
+left: 485px;
+top: 225px;
+
+font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 48.83px;
+line-height: 68px;
+text-align: center;
+
+color: #05034E;
+}
+
+.content-1-para{
+position: absolute;
+width: 873px;
+height: 54px;
+left: 310px;
+top: 385px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #202020;
+
+}
+.content-1-btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 32px;
+cursor: pointer;
+
+position: absolute;
+width: 168px;
+height: 41px;
+left: 650px;
+top: 479px;
+border: none;
+transition: .2s;
+
+background: #5856CE;
+border-radius: 4px;
+}
+
+:hover.content-1-btn{
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.content-2{
+position: absolute;
+width: 100%;
+height: 575px;
+left: -2px;
+top: 650px;
+
+background: rgba(242, 242, 253, 0.5);
+backdrop-filter: blur(10px);
+}
+
+.content-2-text{
+
+position: absolute;
+width: 342px;
+height: 47px;
+left: 588px;
+top: 46px;
+
+font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 39px;
+line-height: 47px;
+color: #05034E;
+
+}
+
+.content-2-para{
+position: absolute;
+width: 472px;
+height: 54px;
+left: 498px;
+top: 130px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #202020;
+}
+
+.icon1{
+
+position: absolute;
+width: 40.38px;
+height: 35.22px;
+left: 118.51px;
+top: 300px;
+
+}
+
+.icon1p1{
+
+position: absolute;
+width: 401px;
+height: 54px;
+left: 180px;
+top: 290px;
+
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 27px;
+
+color: #05034E;
+}
+
+.icon1para1{
+    position: absolute;
+width: 401px;
+height: 88px;
+left: 180px;
+top: 380px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #202020;
+}
+
+.icon2{
+
+position: absolute;
+left: 61.10%;
+right: 46.27%;
+top: 51.12%;
+bottom: 71.41%;
+}
+
+.icon2p2{
+    position: absolute;
+    width: 401px;
+    height: 54px;
+    left: 958px;
+    top: 286px;
+    
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #05034E;   
+}
+
+.icon2para2{
+
+position: absolute;
+width: 403px;
+height: 88px;
+left: 958px;
+top: 380px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+
+color: #202020;
+}
+
+.topic-CRM{
+position: absolute;
+width: 970px;
+height: 136px;
+left: 268px;
+top: 1245px;
+
+font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 46.83px;
+line-height: 65px;
+text-align: center;
+
+color: #05034E;
+}
+
+.btn-1{
+    position: absolute;
+    width: 230px;
+    height: 28px;
+    left: 139px;
+    top: 1400px;
+    border: none;
+    cursor: pointer;
+    
+    background: #99D0FF;
+    border-radius: 28px;
+
+}
+
+.btn1-topic1{
+position: absolute;
+width: 484px;
+height: 47px;
+left: 139px;
+top: 1450px;
+
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 47px;
+
+
+color: #05034E;
+}
+
+.btn1-topic2{
+position: absolute;
+width: 484px;
+height: 70px;
+left: 139px;
+top: 1540px;
+
+font-family:'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+
+color: #05034E;
+
+}
+
+.btn1-para{
+position: absolute;
+width: 463px;
+height: 125px;
+left: 139px;
+top: 1650px;
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+color: #202020;
+}
+
+.linkedin1-logo{
+
+position: absolute;
+width: 650px;
+height: 625px;
+left: 700px;
+top: 1305px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.linkedin2-logo{
+
+ position: absolute;
+ width: 650px;
+ height: 625px;
+ left: 89px;
+ top: 1950px;
+    
+ background: #FFFFFF;
+ border-radius: 15px;
+    
+}
+
+.btn-2{
+
+position: absolute;
+width: 280px;
+height: 30px;
+left: 900px;
+top: 2090px;
+border: none;
+
+background: #99FFCE;
+border-radius: 28px;
+}
+
+.btn2-topic1{
+
+    position: absolute;
+    width: 484px;
+    height: 94px;
+    left: 898px;
+    top: 2140px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 47px;
+      
+    color: #05034E;
+}
+
+.btn2-topic2{
+    position: absolute;
+    width: 484px;
+    height: 70px;
+    left: 900px;
+    top: 2265px;
+    
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+       
+    color: #05034E;
+
+}
+
+.btn2-para{
+
+position: absolute;
+width: 463px;
+height: 125px;
+left: 900px;
+top: 2375px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+color: #202020;
+}
+
+.btn-3{
+
+  position: absolute;
+  width: 280px;
+  height: 26px;
+  left: 139px;
+  top: 2680px;
+  border: none;
+  cursor: pointer;
+    
+  background:#D299FF;
+  border-radius: 28px;    
+}
+
+.btn3-topic1{
+
+  position: absolute;
+  width: 484px;
+  height: 47px;
+  left: 139px;
+  top: 2730px;
+    
+  font-family:'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 47px; 
+  color: #05034E;   
+}
+
+.btn3-topic2{
+  position: absolute;
+  width: 484px;
+  height: 70px;
+  left: 139px;
+  top: 2860px;
+    
+  font-family:'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+    
+  color: #05034E;    
+}
+
+.btn3-para{
+  position: absolute;
+  width: 463px;
+  height: 125px;
+  left: 139px;
+  top: 3000px;
+      
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #202020; 
+
+}
+
+.linkedin3-logo{
+
+position: absolute;
+width: 650px;
+height: 625px;
+left: 700px;
+top: 2520px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+    
+.carousel-contaniner{
+    position: absolute;
+    width: 100%;
+    height: 711px;
+    left: 0px;
+    top: 3225px;
+    
+    background: #F2F2FD;
+}
+
+.container-topic{
+position: absolute;
+width: 398px;
+height: 41px;
+left: 550px;
+top: 46px;
+
+font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 45px;
+color: #05034E;
+}
+
+.content-carousel{
+
+  position: absolute;
+  top: 150px;  
+  left: 150px;
+  width: 1200px;
+  height: 500px;
+  background-color: white;
+  padding: 10px;
+
+}
+.carousel-item{
+    top: 10px;
+    height: 428px;
+}
+
+.carousel-inner{
+    top: 5px;
+    height: 470px;
+}
+.carousel-control-prev{
+
+    height: 100px;
+    margin-top: 350px;
+    margin-left: -20px;
+    
+}
+.carousel-control-next{
+    height: 100px;
+    margin-top: 350px;
+    margin-left: -20px;
+}
+.company1text{
+    position: absolute;
+    top: 50px;
+    left: 490px;
+}
+.itemp{
+    position: absolute;
+    top: 155px;
+    left: 320px;
+    font-size: 20px;
+}
+.qoute-start-logo{
+   position: absolute; 
+   width: 60px; 
+   left: 250px;
+   top: 70px;
+}
+.qoute-end-logo{
+   position: absolute; 
+   width: 60px; 
+   top: 70px;
+   left: 815px;
+}
+.people-png{
+   position: absolute;
+   left: 290px; 
+   width: 90px; 
+   top: 320px;
+}
+.pngtext{
+  position: absolute;
+  top: 340px;
+  left: 425px;
+  color: #05034E;
+}
+.png-para{
+  position: absolute;
+  top: 380px;
+  left: 425px;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    top: 4000px;
+}
+.footer-text{
+position: absolute;
+width: 941px;
+height: 41px;
+left: 335px;
+top: 3990px;
+
+font-family: Paytone One;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 35px;
+color: #05034E;
+}
+.footer-para{
+position: absolute;
+width: 651px;
+height: 27px;
+left: 410px;
+top: 4050px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #202020;
+
+}
+.footer-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 32px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+    position: absolute;
+    width: 178px;
+    height: 41px;
+    left: 640px;
+    top: 20px;
+    border: none;
+    transition: .2s;
+    
+    background: #5856CE;
+    border-radius: 4px; 
+}
+:hover.footer-btn{
+    color: white;
+    letter-spacing: 0.5px;
+}
